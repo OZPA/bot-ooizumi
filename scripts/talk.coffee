@@ -8,3 +8,6 @@ module.exports = (robot) ->
 
   robot.hear /馬鹿/i, (msg) ->
     msg.send msg.random ["藤村が馬鹿だ"]
+
+  robot.hear /小林製薬/i, (msg) ->
+    msg.send msg.random ["糸ようじ"]
