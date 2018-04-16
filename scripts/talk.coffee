@@ -61,8 +61,6 @@ module.exports = (robot) ->
   robot.respond /大丈夫？/i, (msg) ->
     msg.send msg.random ["大丈夫じゃねぇよ！ なまら恐かったよ！"]
 
-    module.exports = (robot) ->
-
   robot.hear /(鈴虫|すずむし)/i, (msg) ->
     msg.send "鳴いたらどうだ？すずむし"
 
