@@ -12,9 +12,9 @@ module.exports = (robot) ->
 
   # 燃やすごみ
 
-  burnableNotify = new cronJob('0 33 19 * * mon', () ->
+  burnableNotify = new cronJob('0 36 19 * * mon', () ->
     send '#2_リマインダー', "@here test"
     , null, false, "Asia/Tokyo"
   )
 
-burnableNotify.start()
+  burnableNotify.start()
