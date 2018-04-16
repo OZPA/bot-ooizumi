@@ -10,9 +10,9 @@ module.exports = (robot) ->
     , null, true, "Asia/Tokyo"
   ).start()
 
-  // 燃やすごみ
+  # 燃やすごみ
 
-  const burnableNotify = new cronJob('0 20 19 * * mon', () ->
-    send '#2_リマインダー', "@here おぉい 明日は燃やすごみの日だって言ってんだ"
+  burnableNotify = new cronJob('0 25 19 * * mon', () ->
+    send '#2_リマインダー', "@here test"
     , null, true, "Asia/Tokyo"
   ).start()
