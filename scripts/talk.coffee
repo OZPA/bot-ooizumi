@@ -1,6 +1,6 @@
 module.exports = (robot) ->
 
-  robot.respond //i, (msg) ->
+  robot.respond /大泉洋/i, (msg) ->
     meigen = msg.random [
       "どーも奥さん。知ってるでしょう？大泉洋でございます。おいパイ食わねぇか。"
       "お前ほんとに大学出たのか？"
